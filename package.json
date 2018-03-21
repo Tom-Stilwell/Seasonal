@@ -1,0 +1,27 @@
+{
+  "name": "Seasonal",
+  "version": "1.0.0",
+  "description": "Seasonal is a game that places the user as a groundskeeper with a passion for photography. As the seasons change, the user has to shovel snow, rake leaves, mow grass, and pick weeds. In the meantime, the user can take pictures of the environment for points. However, if the work for the day isn't done by the time the season changes, there will be penalties!",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tom-Stilwell/Seasonal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tom-Stilwell/Seasonal/issues"
+  },
+  "homepage": "https://github.com/Tom-Stilwell/Seasonal#readme"
+}
