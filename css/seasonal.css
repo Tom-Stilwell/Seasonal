@@ -7,6 +7,13 @@ body {
   background: #6b92b9;
 }
 
-canvas {
+#game-canvas {
   display: block;
+}
+
+#screenshot-canvas {
+  z-index: 100;
+  background-color: lightblue;
+  width: 400px;
+  height: 200px;
 }
