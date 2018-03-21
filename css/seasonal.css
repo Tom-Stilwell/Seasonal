@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #6b92b9;
+}
+
+canvas {
+  display: block;
+}
