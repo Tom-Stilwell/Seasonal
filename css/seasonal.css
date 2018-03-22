@@ -5,6 +5,7 @@
 
 body {
   background: #6b92b9;
+  overflow: hidden;
 }
 
 #game-canvas {
