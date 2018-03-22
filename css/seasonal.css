@@ -6,6 +6,7 @@
 body {
   background: #6b92b9;
   overflow: hidden;
+  overflow-y: scroll;
 }
 
 #game-canvas {
