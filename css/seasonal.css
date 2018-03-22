@@ -21,11 +21,17 @@ body {
   z-index: 100;
 }
 
+#ghosts-canvas {
+  /* background-color: white; */
+  position: absolute;
+  top: 0;
+}
+
 #screenshot-canvas {
   /* z-index: 100; */
   /* background-color: lightblue; */
-  width: 400px;
-  height: 200px;
+  width: 40vw;
+  height: 40vh;
   position: absolute;
   top: 20%;
   left: 40%;
