@@ -4,21 +4,31 @@
 }
 
 body {
-  background: #6b92b9;
   overflow: hidden;
   overflow-y: scroll;
+}
+
+.canvases {
+  background-color: #6b92b9;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 600px;
+  width: 1200px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 #game-canvas {
   /* display: block; */
   position: absolute;
+
+  z-index: 100;
 }
 
 #stickman-canvas {
   /* background-color: white; */
   position: absolute;
-  top: 0;
-  z-index: 100;
 }
 
 #ghosts-canvas {
