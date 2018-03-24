@@ -6,6 +6,7 @@
 body {
   overflow: hidden;
   overflow-y: scroll;
+  background-color: tan;
 }
 
 #canvases {
@@ -44,4 +45,19 @@ body {
   position: absolute;
   top: 15%;
   left: 15%;
+}
+
+.contact {
+  font-size: 30px;
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact img {
+  height: 30px;
+  width: 30px;
 }
