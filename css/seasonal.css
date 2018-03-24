@@ -38,11 +38,11 @@ body {
 }
 
 #screenshot-canvas {
-  /* z-index: 100; */
+  z-index: 100;
   /* background-color: lightblue; */
   width: 40vw;
   height: 40vh;
   position: absolute;
-  top: 20%;
-  left: 40%;
+  top: 15%;
+  left: 15%;
 }
