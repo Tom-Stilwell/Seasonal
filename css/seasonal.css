@@ -18,14 +18,14 @@ body {
   z-index: 1000;
 }
 
-.unmute img {
-  display: none;
+.mute img {
   width: 36px;
   height: 36px;
   filter: opacity(30%);
 }
 
-.mute img {
+.unmute img {
+  display: none;
   width: 40px;
   height: 40px;
   filter: opacity(50%);
@@ -33,10 +33,69 @@ body {
 
 .mute img:hover {
   cursor: pointer;
+  filter: opacity(70%);
 }
 
 .unmute img:hover {
   cursor: pointer;
+  filter: opacity(70%);
+}
+
+.question {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.question img {
+  width: 36px;
+  height: 36px;
+  filter: opacity(30%);
+  margin: 4px;
+  display: none;
+}
+
+.question img:hover {
+  filter: opacity(70%);
+  cursor: pointer;
+}
+
+#instructions {
+  position: absolute;
+  left: 350px;
+  top: 180px;
+  font-size: 30px;
+  background-color: rgb(255, 255, 255, 0.9);
+  width: 300px;
+  z-index: 1000;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+#close-x {
+  position: absolute;
+  width: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  color: grey;
+  right: 16px;
+  top: 16px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: center;
+}
+
+#close-x:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+  color: black;
+}
+
+#instructions img {
+  height: 50px;
+  width: 50px;
 }
 
 #canvases {
@@ -76,6 +135,9 @@ body {
   position: absolute;
   top: 15%;
   left: 15%;
+  /* border: 2px solid black; */
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .header {
