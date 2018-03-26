@@ -6,7 +6,7 @@ Seasonal is a game that loops through each season in a year. As the seasons chan
 comes up against various obstacles, both seen and unseen. The player must use screenshots
 that reveal hidden barriers in order to move forward to the next season.
 
-[Live Demo](https://scarebnb123.herokuapp.com/#/)
+[Live Demo](https://tom-stilwell.github.io/Seasonal/)
 
 ## MVP
 
