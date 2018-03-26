@@ -160,7 +160,7 @@ body {
   font-size: 30px;
   background-color: tan;
   position: absolute;
-  bottom: 0;
+  top: 620px;
   /* left: 10%; */
   width: 300px;
   line-height: 40px;
@@ -168,10 +168,12 @@ body {
   display: flex;
   justify-content: space-between;
   border-radius: 4px;
+  padding-top: 10px;
 }
 .contact img {
   height: 30px;
   width: 30px;
   padding-right: 14px;
+  /* padding-top: 10px; */
   vertical-align: center;
 }
