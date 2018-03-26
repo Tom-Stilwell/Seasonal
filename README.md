@@ -8,7 +8,7 @@ that reveal hidden barriers in order to move forward to the next season.
 
 [Live Demo](https://tom-stilwell.github.io/Seasonal/)
 
-## MVP
+## Features
 
 * Small capturable screenshot area and local storage
 * Seasonal change
