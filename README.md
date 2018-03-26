@@ -1,22 +1,25 @@
-## MVP
+## Overview
 
-Seasonal is a game that places the user as a groundskeeper with a passion
-for photography. As the seasons change, the user has to shovel snow, rake leaves,
-mow grass, and pick weeds. In the meantime, the user can take pictures of
-the environment for points. However, if the work for the day isn't done by the time the
-season changes, there will be penalties!
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+
+Seasonal is a game that loops through each season in a year. As the seasons change, the player
+comes up against various obstacles, both seen and unseen. The player must use screenshots
+that reveal hidden barriers in order to move forward to the next season.
+
+[Live Demo](https://scarebnb123.herokuapp.com/#/)
+
+## MVP
 
 * Small capturable screenshot area and local storage
 * Seasonal change
 * Ground conditions and interaction
-* Birds / Environmental movement
+* Environmental movement
 
 ## Technologies
 
 * JavaScript
 * HTML
 * Canvas
-* html2canvas library (for screenshots)
 
 ## Backend
 
@@ -31,8 +34,8 @@ Models:
 
 Day 1:
 
-* Build groundskeeper and background for one season
-* Explore html2canvas library
+* Build stick player and background for one season
+* Explore canvas capabilities
 
 Day 2:
 
@@ -41,5 +44,5 @@ Day 2:
 
 Day 3:
 
-* Implement ground conditions
-* Add user controls for maintenance
+* Implement ghost blocks
+* Add user controls for jumping/traversal
