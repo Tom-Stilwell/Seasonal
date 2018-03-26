@@ -4,15 +4,22 @@
     <meta charset="utf-8">
     <title>Seasonal</title>
     <link rel="stylesheet" type="text/css" href="./css/seasonal.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 
     <script src="./dist/bundle.js"></script>
 
   </head>
   <body>
-    <audio id="audio" src="./Rainbows.mp3" loop></audio>
+    <audio id="audio" src="./Rainbows.mp3" autoplay loop></audio>
+    <div class="header">
+      <div class ="title"> Seasonal </div>
+      <div class="author"> A Loop by Tom Stilwell </div>
+    </div>
     <div id="canvases">
       <canvas id="game-canvas"></canvas>
       <canvas id="screenshot-canvas"></canvas>
+      <div class="mute"><img id="mute" src="./mute.png" /></div>
+      <div class="unmute"><img id="unmute" src="./unmute.png" /></div>
     </div>
     <div class="contact">
       Contact Me:
