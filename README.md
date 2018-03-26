@@ -21,6 +21,13 @@ that reveal hidden barriers in order to move forward to the next season.
 * HTML
 * Canvas
 
+## Design
+
+![Seasons](https://github.com/Tom-Stilwell/Seasonal/blob/master/seasons.gif)
+
+The game's design is done entirely with html5 canvas tags. Manipulation of the
+DOM is completed via vanilla JavaScript, with no additional libraries used.
+
 ## Backend
 
 Possible storage of user's past photos.
