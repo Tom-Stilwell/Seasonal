@@ -102,6 +102,24 @@ body {
   color: red;
 }
 
+#stuck {
+  padding: 4px;
+  margin-left: 10px;
+  border-radius: 2px;
+}
+
+#stuck:hover {
+  cursor: pointer;
+}
+
+#stuck:active {
+  background-color: red;
+}
+
+#stuck:focus {
+  outline: none;
+}
+
 #canvases {
   position: absolute;
   top: 70px;
