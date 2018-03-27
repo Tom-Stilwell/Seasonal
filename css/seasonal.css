@@ -98,6 +98,10 @@ body {
   width: 50px;
 }
 
+#instructions span {
+  color: red;
+}
+
 #canvases {
   position: absolute;
   top: 70px;
