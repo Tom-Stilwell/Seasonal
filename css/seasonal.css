@@ -14,7 +14,7 @@ body {
 .unmute {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 4px;
   z-index: 1000;
 }
 
@@ -61,6 +61,18 @@ body {
   cursor: pointer;
 }
 
+#start {
+  padding: 6px;
+  margin-left: 120px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+#start:hover {
+  cursor: pointer;
+  background-color: pink;
+}
+
 #instructions {
   position: absolute;
   left: 350px;
@@ -105,11 +117,17 @@ body {
 #stuck {
   padding: 4px;
   margin-left: 10px;
-  border-radius: 2px;
+  border-radius: 3px;
+  position: absolute;
+  top: 4px;
+  left: 30px;
+  opacity: 0.4;
+  z-index: 1000;
 }
 
 #stuck:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 
 #stuck:active {
