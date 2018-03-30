@@ -7,6 +7,7 @@ body {
   overflow: hidden;
   overflow-y: scroll;
   background-image: url("https://r.hswstatic.com/w_830/gif/redefinefourseasons-2.jpg");
+  background-size: cover;
   font-family: "Josefin Slab", serif;
 }
 
@@ -188,12 +189,12 @@ body {
 .title {
   font-size: 30px;
   padding-top: 6px;
-  margin: auto;
 }
 
 .author {
   font-size: 20px;
-  margin: auto;
+  padding-top: 4px;
+  padding-bottom: 2px;
 }
 
 .contact {
@@ -201,14 +202,15 @@ body {
   background-color: tan;
   position: absolute;
   top: 620px;
-  /* left: 10%; */
+  left: 15%;
+  margin-left: 370px;
   width: 300px;
   line-height: 40px;
   vertical-align: center;
   display: flex;
   justify-content: space-between;
   border-radius: 4px;
-  padding-top: 10px;
+  padding: 10px 0px 0px 10px;
 }
 .contact img {
   height: 30px;
