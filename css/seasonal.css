@@ -62,14 +62,16 @@ body {
   cursor: pointer;
 }
 
-#start {
+#start,
+#onward {
   padding: 6px;
   margin-left: 120px;
   border-radius: 2px;
   font-size: 20px;
 }
 
-#start:hover {
+#start:hover,
+#onward:hover {
   cursor: pointer;
   background-color: pink;
 }
@@ -172,14 +174,27 @@ body {
 #screenshot-canvas {
   z-index: 100;
   /* background-color: lightblue; */
-  width: 40vw;
-  height: 40vh;
+  width: 500px;
+  height: 250px;
   position: absolute;
-  top: 15%;
-  left: 15%;
+  top: calc(50% - 125px);
+  left: calc(50% - 250px);
   /* border: 2px solid black; */
   border-radius: 4px;
   overflow: hidden;
+}
+
+#winner {
+  position: absolute;
+  left: 350px;
+  top: 130px;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 300px;
+  z-index: 1000;
+  padding: 20px;
+  border-radius: 6px;
+  display: none;
 }
 
 .header {
